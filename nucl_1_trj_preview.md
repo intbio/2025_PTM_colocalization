@@ -362,7 +362,7 @@
       // Now I can use this dataset:
       function(data) {
         data.forEach(function(d) {
-          d.Frame = d.Frame/10;
+          d.Frame = d.Frame/1000;
         });
         // Add X axis --> it is a date format
 
@@ -376,7 +376,7 @@
           .attr("class", "axis")
           .call(d3.axisBottom(x)
             .tickFormat(function(d) {
-              return d*10;
+              return d*1000;
             }))
 
         // Add Y axis
@@ -539,7 +539,7 @@
 
     <input class="form-check-input " type="checkbox" name="ALY_check" value="" id="ALY_check">
     <label class="form-check-label " for="ALY_check">
-      Show PSER
+      Show ALY
     </label>
         
 
