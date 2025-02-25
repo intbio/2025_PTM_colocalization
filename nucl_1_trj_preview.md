@@ -112,7 +112,7 @@
 
       window.acetylated_AA_selection = nucl.addRepresentation('hyperball', {
         "sele": "(14 or 23) and (:C or :G) and not _H",
-        color: magenta,
+        color: "magenta",
         radius: 3.5
       });
       window.acetylated_AA_selection.setVisibility(false);
