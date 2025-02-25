@@ -77,6 +77,9 @@
 	["pink", "39 and HIS"],
         ["white", "*"]
       ], "protein");
+      var ALY_color = NGL.ColormakerRegistry.addSelectionScheme([
+        ["cyan", "ALY"]
+      ], "protein");
       
       var shape = new NGL.Shape( "Axes" );
 			shape.addArrow( [ 0, 0, -35 ], [ 0, 0, 35 ], [ 0.04, 0.8, 0.03 ], 2.0 );
@@ -109,7 +112,7 @@
 
       window.acetylated_AA_selection = nucl.addRepresentation('hyperball', {
         "sele": "(14 or 23) and (:C or :G) and not _H",
-        color: hyper_scheme,
+        color: magenta,
         radius: 3.5
       });
       window.acetylated_AA_selection.setVisibility(false);
