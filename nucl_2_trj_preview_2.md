@@ -495,7 +495,7 @@
             .style('display', 'block')
             .style('left', d3.event.pageX + 20)
             .style('top', d3.event.pageY - 20)
-          /*        .selectAll()
+                  .selectAll()
                   .data(data[frame])
                   .append('div')
                   .html(d => 1 ); */
