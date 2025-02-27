@@ -50,7 +50,7 @@
 <script>
   var pdb="trj/2_nucl.pdb"
   var xtc="trj/2_nucl_10ns_filtered_2run.xtc"
-  var csvfile="dat/2_nucl_1run_unwrap.csv" 
+  var csvfile="dat/2_nucl_2run_unwrap.csv" 
   var trjstep = 10;
   $(document).ready(function() {
     window.stage = new NGL.Stage("viewport0", {
