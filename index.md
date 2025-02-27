@@ -31,7 +31,7 @@
 - N<sub>5</sub><sup>run_1</sup> - Nucleosome 1KX5 with all presented acetylations, run_1: [pdb](trj/5_nucl.pdb), [xtc](trj/5_nucl_10ns_filtered.xtc)
 
 
-### Force field for phosphoserine (PSER)
+### Force field
 [https://github.com/intbio/gromacs_ff/amber19sb_parmbsc1_opc.ff](https://github.com/intbio/gromacs_ff/tree/master/amber19sb_parmbsc1_opc.ff)
 
 
